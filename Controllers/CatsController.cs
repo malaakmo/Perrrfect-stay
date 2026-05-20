@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MySql.Data.MySqlClient;
 using PurrfectStayAPI;
+using PurrfectStayAPI.Data;
 
 [Route("api/[controller]")]
 [ApiController]
@@ -28,12 +29,12 @@ public class CatsController : ControllerBase
                     id = reader.GetInt32("id"),
                     name = reader.GetString("name"),
                     breed = reader.GetString("breed"),
-                    age_years = reader.GetInt32("age_years"),
+                    age_years = reader.GetDecimal("age_years"),
                     gender = reader.GetString("gender"),
-                    personality = reader.GetString("personality"),
+                    personality = reader.IsDBNull(reader.GetOrdinal("personality")) ? "" : reader.GetString("personality"),
                     photo = reader.IsDBNull(reader.GetOrdinal("photo")) ? "" : reader.GetString("photo"),
                     health_status = reader.GetString("health_status"),
-                    adoption_status = reader.GetString("adoption_status")
+                    adoption_status = reader.IsDBNull(reader.GetOrdinal("adoption_status")) ? "" : reader.GetString("adoption_status")
                 });
             }
         }
