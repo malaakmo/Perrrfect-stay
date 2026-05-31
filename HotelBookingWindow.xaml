@@ -1,0 +1,54 @@
+﻿<Window x:Class="Perrrfect_stay.HotelBookingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Perrrfect_stay"
+        mc:Ignorable="d"
+        Title="HotelBookingWindow" Height="651" Width="1039">
+    <Grid Background="#F8F4F2">
+        <Border Width="520 " Height="550" Padding="40"
+        Background="#FFF0ED" CornerRadius="20"
+        VerticalAlignment="Center" HorizontalAlignment="Center">
+            <StackPanel>
+
+
+
+                <TextBlock Text="&lt; Back" Cursor="Hand"
+                   Foreground="#E8A87C" FontWeight="Bold"
+                   Margin="0,0,0,20"/>
+
+
+                <TextBlock Text="Hotel Booking 🏨"
+                   FontSize="28" FontWeight="Bold"
+                   Foreground="#5A4634" HorizontalAlignment="Center"
+                   Margin="0,0,0,25"/>
+
+                <TextBlock Text ="Select Cat"/>
+                <ComboBox x:Name="CatCombo" Height="38"
+                  Margin="0,5,0,15"/>
+
+                <TextBlock Text="Room Type:"/>
+                <ComboBox x:Name="TypeCombo" Height="38" Margin="0,5,0,15"/>
+
+                <TextBlock Text="StartDate:"/>
+                <DatePicker x:Name="StartDate" Height="38" 
+                  Margin="0,5,0,25" />
+
+                <TextBlock Text="End Date:"/>
+                <DatePicker  x:Name="EndDate" Height="38" Margin="0,5,0,15"/>
+
+                <TextBlock Text="Specail Notes:"/>
+
+                <TextBox x:Name="NotesBox" Height="60"
+                         Background="#FFF3E8" BorderBrush="#E8A87C"
+                         Padding="10" Margin="0,5,0,20"/>
+
+
+                <Button Content="Confirm Booking 🐾" Click="ConfirmBooking_Click" Height="45"
+                 Background="#E8A87C" Foreground="White" FontWeight="Bold"/>
+
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

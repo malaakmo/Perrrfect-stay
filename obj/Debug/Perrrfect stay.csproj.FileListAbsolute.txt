@@ -1,0 +1,85 @@
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\Perrrfect stay.exe.config
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\Perrrfect stay.exe
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\Perrrfect stay.pdb
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\Perrrfect stay.csproj.AssemblyReference.cache
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\MainWindow.g.cs
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\App.g.cs
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\Perrrfect stay_MarkupCompile.cache
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\Perrrfect stay_MarkupCompile.lref
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\MainWindow.baml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\Perrrfect stay.g.resources
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\Perrrfect_stay.Properties.Resources.resources
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\Perrrfect stay.csproj.GenerateResource.cache
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\Perrrfect stay.csproj.CoreCompileInputs.cache
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\Perrrfect stay.exe
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\Perrrfect stay.pdb
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\EntityFramework.dll
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\Google.Protobuf.dll
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\MySql.Data.dll
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\System.Buffers.dll
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\System.IO.Pipelines.dll
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\System.Memory.dll
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\ZstdSharp.dll
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\EntityFramework.xml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\Google.Protobuf.pdb
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\Google.Protobuf.xml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\MySql.Data.xml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\System.Buffers.xml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\System.IO.Pipelines.xml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\System.Memory.xml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\Perrrfec.E9EECD0C.Up2Date
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\HomeWindow.g.cs
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\HomeWindow.baml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\RegisterWindow.g.cs
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\BCrypt-Net-Next.dll
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\RegisterWindow.baml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\CafeReservationWindow.g.cs
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\CafeReservationWindow.baml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\CatListWindow.g.cs
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\CatListWindow.baml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\CatDetailsWindow.g.cs
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\CatDetailsWindow.baml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\HotelBookingWindow.g.cs
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\HotelBookingWindow.baml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\ForgotPasswordWindow.g.cs
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\ForgotPasswordWindow.baml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\UserProfileWindow.g.cs
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\UserProfileWindow.baml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\AdminDashboardWindow.g.cs
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\AdminRequestsWindow.g.cs
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\AdminUsersWindow.g.cs
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\AdminDashboardWindow.baml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\AdminRequestsWindow.baml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\AdminUsersWindow.baml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\MyBookingsWindow.g.cs
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\MyBookingsWindow.baml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\AdminCatsWindow.g.cs
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\AdminCatsWindow.baml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\SponsorCatWindow.g.cs
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\SponsorCatWindow.baml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\SitterListWindow.g.cs
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\SitterProfileWindow.g.cs
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\SitterListWindow.baml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\SitterProfileWindow.baml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\MessagesWindow.g.cs
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\MessagesWindow.baml
