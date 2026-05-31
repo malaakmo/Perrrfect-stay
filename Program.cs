@@ -1,5 +1,5 @@
-using PurrfectStayAPI;
-using PurrfectStayAPI.Data;
+using PerrrfectStayAPI;
+using PerrrfectStayAPI.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

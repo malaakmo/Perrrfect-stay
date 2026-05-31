@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using MySql.Data.MySqlClient;
-using PurrfectStayAPI;
-using PurrfectStayAPI.Data;
+using PerrrfectStayAPI;
+using PerrrfectStayAPI.Data;
 
 [Route("api/[controller]")]
 [ApiController]

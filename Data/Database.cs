@@ -1,6 +1,6 @@
-﻿using MySql.Data.MySqlClient;
+using MySql.Data.MySqlClient;
 
-namespace PurrfectStayAPI.Data
+namespace PerrrfectStayAPI.Data
 {
     public class Database
     {

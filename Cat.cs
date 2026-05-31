@@ -1,7 +1,7 @@
-﻿using PurrfectStayAPI;
-using PurrfectStayAPI.Data;
+using PerrrfectStayAPI;
+using PerrrfectStayAPI.Data;
 
-namespace PurrfectStayAPI;
+namespace PerrrfectStayAPI;
 
 public class Cat
 {

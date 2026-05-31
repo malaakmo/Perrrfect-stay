@@ -1,12 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using MySql.Data.MySqlClient;
-using PurrfectStayAPI.Data;
+using PerrrfectStayAPI.Data;
 using QRCoder;
 using iText.Kernel.Pdf;
 using iText.Layout;
 using iText.Layout.Element;
 
-namespace PurrfectStayAPI.Controllers
+namespace PerrrfectStayAPI.Controllers
 {
     [Route("api/PDF-QR")]
     [ApiController]
@@ -57,7 +57,7 @@ namespace PurrfectStayAPI.Controllers
 
             foreach (var b in bookings)
             {
-                doc.Add(new Paragraph($"Booking #{b.Id} | Room {b.Room} | {b.CheckIn} → {b.CheckOut} | €{b.Total} | {b.Status}"));
+                doc.Add(new Paragraph($"Booking #{b.Id} | Room {b.Room} | {b.CheckIn} > {b.CheckOut} | �{b.Total} | {b.Status}"));
             }
 
             if (!bookings.Any())

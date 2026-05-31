@@ -1,6 +1,6 @@
-﻿using System;
+using System;
 
-namespace PurrfectStayAPI.Models
+namespace PerrrfectStayAPI.Models
 {
     public class User
     {

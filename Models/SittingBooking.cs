@@ -1,5 +1,5 @@
-﻿using System;
-namespace PurrfectStayAPI.Models
+using System;
+namespace PerrrfectStayAPI.Models
 {
     public class SitterProfile
     {
