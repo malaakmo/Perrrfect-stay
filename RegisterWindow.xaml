@@ -1,0 +1,44 @@
+﻿<Window x:Class="Perrrfect_stay.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Perrrfect_stay"
+        mc:Ignorable="d"
+        Title="RegisterWindow" Height="620" Width="800">
+    <Grid>
+        <Border Width="543" Height="550" Padding="40"
+                Background="#FFF0ED" CornerRadius="25"
+                VerticalAlignment="Center"  HorizontalAlignment="Center">
+
+            <StackPanel>
+                <TextBlock Text="Perrrfect Stay🐾" FontSize="32"   FontWeight="Bold"
+                       Foreground="#5A4634" HorizontalAlignment="Center" Margin="0,0,0,5" />
+
+                <TextBlock Text="Create Account" FontSize="18" Foreground="#7A6A58"
+                           HorizontalAlignment="Center" Margin="0,0,0,25"/>
+                <TextBlock Text="First Name:"/>
+                <TextBox x:Name="FirstNameBox" Height="38" Background="#FFF3E8"
+                         BorderBrush="#E8A87C" Padding="10" Margin="0,5,0,15" />
+
+                <TextBlock Text="Last Name:"/>
+                <TextBox x:Name="LastNameBox" Height="38" Background="#FFF3E8"
+                          BorderBrush="#E8A87C" Padding="10" Margin="0,5,0,15" />
+
+
+                <TextBlock Text="Email:"/>
+                <TextBox x:Name="EmailBox" Height="38" Background="#FFF3E8"
+                          BorderBrush="#E8A87C" Padding="10" Margin="0,5,0,15" />
+
+
+                 <TextBlock Text = "Password :"/>
+                 <PasswordBox x:Name="PasswordBox" Height="38" Background="#FFF3E8"
+                         BorderBrush="#E8A87C" Padding="10" Margin="0,5,0,20" />
+
+
+                    <Button Content="Register" Click=" Register_Click" Height="40"
+                            Background="#E8A87C" Foreground="White" FontWeight="Bold"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

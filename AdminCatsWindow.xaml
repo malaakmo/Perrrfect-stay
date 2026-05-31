@@ -1,0 +1,49 @@
+﻿<Window x:Class="Perrrfect_stay.AdminCatsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Perrrfect_stay"
+        mc:Ignorable="d"
+        Title="AdminCatsWindow" Height="450" Width="800">
+   
+        <Grid Background="#F8F4F2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+            <Border Grid.Row="0" Padding="20" Background="#5A4634">
+            <TextBlock Text="Manage Cats 🐱" FontSize="24" FontWeight="Bold"
+                         Foreground="White" HorizontalAlignment="Center"/>
+
+            </Border>
+
+            <Button Grid.Row="1" Content="&lt; Back" 
+                     Click="Back_Click" 
+                     HorizontalAlignment="Left" Padding="10,5"
+                   Background="#E8A87C" Foreground="White" Margin="20,10"/>
+
+            <DataGrid Grid.Row="2" x:Name="CatsGrid"
+                   Margin="20" AutoGenerateColumns="False"
+                     IsReadOnly="True" Background="White">
+
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="50"/>
+                    <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="120"/>
+                    <DataGridTextColumn Header="Breed" Binding="{Binding Breed}" Width="120"/>
+                    <DataGridTextColumn Header="Status" Binding="{Binding AdoptionStatus}" Width="100"/>
+
+                </DataGrid.Columns>
+            </DataGrid>
+
+        <Button Grid.Row="3" Content="+ Add Cat" 
+         Click="AddCat_Click"  Height="40"
+         HorizontalAlignment="Left" Padding="10,5" FontWeight="Bold"
+       Background="#E8A87C" Foreground="White" Margin="20"/>
+
+
+    </Grid>
+</Window>

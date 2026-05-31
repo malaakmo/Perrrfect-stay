@@ -1,0 +1,88 @@
+﻿<Window x:Class="Perrrfect_stay.UserProfileWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Perrrfect_stay"
+        mc:Ignorable="d"
+        Title="UserProfileWindow" Height="450" Width="800">
+    <Grid Background ="#F8F4F2">
+
+        <Border Width="500" Height="350" Padding="40"
+        Background="White"  CornerRadius="20"
+        VerticalAlignment="Center"  HorizontalAlignment="Center">
+
+            <StackPanel >
+                <TextBlock Text="👤" FontSize="60"
+               Margin="0,0,0,10"
+                HorizontalAlignment="Center"/>
+
+                <TextBlock x:Name="NameText" FontSize="24" FontWeight="Bold"
+                         HorizontalAlignment="Center"
+                  Margin="0,0,0,5"
+                  Foreground="#5A4634 "/>
+
+                <TextBlock  x:Name ="EmailText" 
+               FontSize="14" Foreground="#7A6A58" Margin="0,0,0,25"
+             HorizontalAlignment="Center"/>
+
+                <Button Content="My Bookings 📅"
+                        Click="MyBookings_Click"
+                        Height="45"
+                        Background="#fff3e8"
+                        Foreground="#5a4634"
+                        FontWeight="Bold"/>
+
+
+                <Button Content="My Favorites ❤️"
+                       Click="MyFavorites_Click"
+                       Height="45"
+                       Background="#fff3e8"
+                       Foreground="#5a4634"
+                       FontWeight="Bold"
+                       Margin="0,0,0,10"/>
+
+
+
+                <Button Content="Change Password 🔑"
+                       Click="ChangePassword_Click"
+                       Height="45"
+                       Background="#fff3e8"
+                       Foreground="#5a4634"
+                       FontWeight="Bold"
+                       Margin="0,0,0,10"/>
+
+
+
+                <Button Content="Delete Account ❌"
+                       Click="DeleteAccount_Click"
+                       Height="45"
+                       Background="#fff3e8"
+                       Foreground="#5a4634"
+                       FontWeight="Bold"
+                       Margin="0,0,0,10"/>
+
+                <Button Content="Logout"
+                       Click="Logout_Click"
+                       Height="45"
+                       Background="#fff3e8"
+                       Foreground="#5a4634"
+                       FontWeight="Bold"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </StackPanel>
+        </Border>
+
+    </Grid>
+</Window>
