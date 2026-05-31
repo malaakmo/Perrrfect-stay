@@ -59,7 +59,35 @@ namespace Perrrfect_stay
                 cmd.ExecuteNonQuery();
             }
             MessageBox.Show("Reservation confirmed!");
+            
+
+            QRCoder.QRCodeGenerator qrGenerator = new QRCoder.QRCodeGenerator();
+            QRCoder.QRCodeData qrCodeData = qrGenerator.CreateQrCode(
+                "Table: " + table + " | Time: " + timeSlot + " | People: " + people,
+                QRCoder.QRCodeGenerator.ECCLevel.Q);
+            QRCoder.BitmapByteQRCode qrCode = new QRCoder.BitmapByteQRCode(qrCodeData);
+            byte[] qrCodeImage = qrCode.GetGraphic(20);
+
+            System.Windows.Media.Imaging.BitmapImage bitmap = new System.Windows.Media.Imaging.BitmapImage();
+            using (var ms = new System.IO.MemoryStream(qrCodeImage))
+            {
+                bitmap.BeginInit();
+                bitmap.StreamSource = ms;
+                bitmap.CacheOption = System.Windows.Media.Imaging.BitmapCacheOption.OnLoad;
+                bitmap.EndInit();
+            }
+
+            System.Windows.Window qrWindow = new System.Windows.Window
+            {
+                Title = "Your QR Code 🎫",
+                Width = 300,
+                Height = 300,
+                Content = new System.Windows.Controls.Image { Source = bitmap }
+            };
+            qrWindow.Show();
             this.Close();
+
+
         }
     }
 }

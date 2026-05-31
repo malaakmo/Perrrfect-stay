@@ -83,3 +83,5 @@ C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\o
 C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\SitterProfileWindow.baml
 C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\MessagesWindow.g.cs
 C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\obj\Debug\MessagesWindow.baml
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\QRCoder.dll
+C:\Users\malaa\OneDrive - Thomas More\UNI\semester 2 (2026)\lab\Perrrfect stay\bin\Debug\QRCoder.xml
