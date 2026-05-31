@@ -1,10 +1,10 @@
-﻿
+
 namespace Perrrfect_stay
 {
     public class Cat
 
     {
-        public int Id {  get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Breed { get; set; }
         public string Gender { get; set; }
@@ -12,4 +12,5 @@ namespace Perrrfect_stay
         public string HealthStatus { get; set; }
         public string AdoptionStatus { get; set; }
     }
+
 }
