@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using MySql.Data.MySqlClient;
 using PerrrfectStayAPI.Data;
 using PerrrfectStayAPI.Models;
+using QRCoder;
 
 namespace PerrrfectStayAPI.Controllers
 {
@@ -103,7 +104,15 @@ namespace PerrrfectStayAPI.Controllers
             cmd.Parameters.AddWithValue("@timeSlot", request.TimeSlot);
             cmd.Parameters.AddWithValue("@guests", request.NumGuests);
             cmd.ExecuteNonQuery();
-            return Ok(new { tableId, message = "Reservation confirmed." });
+            
+            long reservationId = cmd.LastInsertedId;
+            string qrData = $"perrrfectstay://cafe?reservationId={reservationId}&userId={request.UserId}&date={request.VisitDate:yyyy-MM-dd}&time={request.TimeSlot}";
+            using var qrGenerator = new QRCodeGenerator();
+            var qrCodeData = qrGenerator.CreateQrCode(qrData, QRCodeGenerator.ECCLevel.Q);
+            using var qrCode = new PngByteQRCode(qrCodeData);
+            byte[] qrBytes = qrCode.GetGraphic(10);
+            string qrBase64 = Convert.ToBase64String(qrBytes);
+            return Ok(new { tableId, reservationId, qrCode = qrBase64, message = "Reservation confirmed." });
         }
 
         // PATCH api/cafe/reservations/5/cancel

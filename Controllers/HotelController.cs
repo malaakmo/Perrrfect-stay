@@ -175,5 +175,49 @@ namespace PerrrfectStayAPI.Controllers
             if (rows == 0) return NotFound(new { message = "Booking not found." });
             return Ok(new { message = $"Status updated to '{status}'." });
         }
+
+        // GET api/hotel/bookings/all
+        [HttpGet("bookings/all")]
+        public IActionResult GetAllBookings()
+        {
+            var bookings = new List<object>();
+            using var conn = _db.GetConnection();
+            conn.Open();
+            var cmd = new MySqlCommand(@"
+                SELECT hb.*, u.first_name, u.last_name, r.room_number, c.name as cat_name
+                FROM hotel_bookings hb
+                JOIN users u ON hb.user_id = u.id
+                JOIN rooms r ON hb.room_id = r.id
+                JOIN cats c ON hb.cat_id = c.id
+                ORDER BY hb.check_in DESC", conn);
+            using var reader = cmd.ExecuteReader();
+            while (reader.Read())
+                bookings.Add(new
+                {
+                    id = reader.GetInt32("id"),
+                    userName = $"{reader.GetString("first_name")} {reader.GetString("last_name")}",
+                    catName = reader.GetString("cat_name"),
+                    roomNumber = reader.GetString("room_number"),
+                    checkIn = reader.GetDateTime("check_in"),
+                    checkOut = reader.GetDateTime("check_out"),
+                    totalPrice = reader.GetDecimal("total_price"),
+                    status = reader.GetString("status")
+                });
+            return Ok(bookings);
+        }
+
+        // POST api/hotel/cats/5/photo
+        [HttpPost("cats/{catId}/photo")]
+        public async Task<IActionResult> UploadDailyPhoto(int catId, IFormFile file)
+        {
+            if (file == null || file.Length == 0) return BadRequest(new { message = "No file uploaded." });
+            var folder = Path.Combine(Directory.GetCurrentDirectory(), "uploads", "daily");
+            Directory.CreateDirectory(folder);
+            var fileName = $"cat_{catId}_{DateTime.Now:yyyyMMdd}_{Guid.NewGuid()}.jpg";
+            var filePath = Path.Combine(folder, fileName);
+            using var stream = new FileStream(filePath, FileMode.Create);
+            await file.CopyToAsync(stream);
+            return Ok(new { message = "Photo uploaded.", fileName });
+        }
     }
 }
